@@ -12,9 +12,11 @@ function func(todo){
   let bt = document.createElement('button')
   bt.addEventListener("click", del)
   par.textContent = `${todo} `
-  bt.textContent = "X"
+  bt.textContent = "❌"
   par.appendChild(bt)
   document.querySelector("#tasks").appendChild(par)
+  let sel = document.createElement('select')
+  par
   console.log(par)
 }
 
